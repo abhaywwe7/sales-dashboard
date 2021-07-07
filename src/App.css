@@ -1,7 +1,4 @@
 .container {
   display: flex;
-}
-.othercontainer {
-  flex: 4;
-  background-color: skyblue;
+  margin-top: 10px;
 }
