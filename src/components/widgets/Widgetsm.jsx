@@ -8,57 +8,57 @@ export default function Widgetsm() {
       <span className="widgetSmTitle">New Join Members</span>
       <ul className="widgetSmList">
         <li className="widgetSmListItem">
-          <img src={image1} alt="" />
+          <img className="widgetSmImg" src={image1} alt="" />
           <div className="widgetSmUser">
             <span className="widgetSmUsername">Lisa Ko</span>
             <span className="widgetSmUserTitle">Web Developer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
-          <img src={image1} alt="" />
+          <img className="widgetSmImg" src={image1} alt="" />
           <div className="widgetSmUser">
             <span className="widgetSmUsername">Lisa Ko</span>
             <span className="widgetSmUserTitle">Web Developer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
-          <img src={image1} alt="" />
+          <img src={image1} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
             <span className="widgetSmUsername">Lisa Ko</span>
             <span className="widgetSmUserTitle">Web Developer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
-          <img src={image1} alt="" />
+          <img src={image1} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
             <span className="widgetSmUsername">Lisa Ko</span>
             <span className="widgetSmUserTitle">Web Developer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="widgetSmIcon" />
             Display
           </button>
         </li>
         <li className="widgetSmListItem">
-          <img src={image1} alt="" />
+          <img src={image1} alt="" className="widgetSmImg" />
           <div className="widgetSmUser">
             <span className="widgetSmUsername">Lisa Ko</span>
             <span className="widgetSmUserTitle">Web Developer</span>
           </div>
           <button className="widgetSmButton">
-            <Visibility />
+            <Visibility className="widgetSmIcon" />
             Display
           </button>
         </li>

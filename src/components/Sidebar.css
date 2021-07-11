@@ -6,7 +6,7 @@
   top: 50px;
 }
 .sidebarWrapper {
-  padding: 18px;
+  padding: 14px;
   color: #555;
 }
 .sidebarMenu {
@@ -18,7 +18,7 @@
 }
 .sidebarList {
   list-style: none;
-  padding: 4px;
+  padding: 2px;
 }
 .sidebarListItems {
   padding: 5px;
