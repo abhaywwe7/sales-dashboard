@@ -14,6 +14,7 @@ import {
   Storefront,
   Equalizer,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="sidebar">
@@ -21,10 +22,13 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItems active">
-              <Home className="sidebarIcons" />
-              Home
-            </li>
+            <Link to="/" className="link">
+              <li className="sidebarListItems active">
+                <Home className="sidebarIcons" />
+                Home
+              </li>
+            </Link>
+
             <li className="sidebarListItems">
               <Timeline className="sidebarIcons" />
               Analytics
@@ -38,14 +42,18 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItems ">
-              <Person className="sidebarIcons" />
-              Users
-            </li>
-            <li className="sidebarListItems">
-              <Storefront className="sidebarIcons" />
-              Products
-            </li>
+            <Link to="/users" className="link">
+              <li className="sidebarListItems ">
+                <Person className="sidebarIcons" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebarListItems">
+                <Storefront className="sidebarIcons" />
+                Products
+              </li>
+            </Link>
             <li className="sidebarListItems">
               <AttachMoney className="sidebarIcons" />
               Transactions
